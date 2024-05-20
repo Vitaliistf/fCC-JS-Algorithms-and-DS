@@ -1,0 +1,46 @@
+body {
+    background-color: #ececec;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Monospace;
+}
+
+#check-btn {
+    background-color: #385170;
+    border-radius: 20px;
+    border: none;
+    height: 7vh;
+    min-height: 50px;
+    width: 10vw;
+    font-size: 200%;
+    min-width: 300px;
+    color: #ececec;
+    margin: 5vh 5vh 10vh 5vh;
+    cursor: pointer;
+}
+
+#check-btn:hover {
+    background-color: #142d4c;
+}
+
+#text-input {
+    border-radius: 20px;
+    border: solid 2px #142d4c;
+    height: 7vh;
+    min-height: 50px;
+    width: 20vw;
+    min-width: 300px;
+    font-size: xx-large;
+    color: #142d4c;
+}
+
+h1 {
+    color: #142d4c;
+    margin: 10vh 5vh 5vh 5vh;
+    font-size: xx-large;
+}
+
+#result {
+    font-size: xx-large;
+}
